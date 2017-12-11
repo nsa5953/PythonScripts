@@ -10,6 +10,7 @@ print('Item:\t', '%.2f' % item)
 print('Tax:\t', '%.2f' % tax)
 print('Total:\t', '%.2f' % total)
 
+# Expand Variable to 20 places by %.20f
 print('Iteam:\t', '%.20f' % item)
 print('Tax:\t', '%.20f' % tax)
 print('Total:\t', '%.20f' % total)
