@@ -1,5 +1,7 @@
 #Python script of date time
+#-------------------------------------------------------------------------------------
 # Note 1 :  import datetime module to make its feature available
+#-------------------------------------------------------------------------------------
 from datetime import *
 
 today = datetime.today()
@@ -16,7 +18,10 @@ print('Time :', today.hour, ':', today.minute, sep="")
 day = today.strftime('%A') # %A is used to display full Weekday name
 month = today.strftime('%B') # %B is used to display full month name
 
+#-------------------------------------------------------------------------------------
 # Note 2 - Default datetime objects are stored as numeric values
 # but to can be display transformed into text equivalent using its "strftime()" method
+#-------------------------------------------------------------------------------------
+
 # Add Statement to display formatted datetime
 print('Date :', today.day, month, day)
