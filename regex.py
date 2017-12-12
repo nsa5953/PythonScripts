@@ -3,7 +3,7 @@
 from re import *
 
 # Initailize Variable with a regular expression object
-pattern = compile ('(^|\s)[-a-z0-9_.]+@([-a-z0-9]+.)+[a-z]{2,6}(\s|$)')
+pattern = compile ('(^|\s)[-a-z0-9_.]+@([-a-z0-9]+.)+.[a-z]{2,6}(\s|$)')
 
 # Begin function by requesting user input and attempt to match pattern
 def get_address():
