@@ -19,3 +19,8 @@ file = open('poem.txt', 'r')
 for line in file:
     print(line, end ='')
 file.close()
+
+#Statement to append a citation to text file
+file = open('poem.txt', 'a')
+file.write('(Oscar Wilde)')
+file.close()
