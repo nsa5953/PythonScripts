@@ -24,3 +24,10 @@ file.close()
 file = open('poem.txt', 'a')
 file.write('(Oscar Wilde)')
 file.close()
+
+print('\nAppended file content')
+# Display content of text file and close file
+file = open('poem.txt', 'r')
+for line in file:
+    print(line, end ='')
+file.close()
