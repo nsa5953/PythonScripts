@@ -4,7 +4,7 @@ from Bird import *
 zola = Bird('Beep, beep!')
 print('\nBuilt-In Instance attributes....')
 for attrib in dir(zola):
-    if attrib[0] == '__':
+    if attrib[0] == '_':
         print(attrib)
 
 print('\nClass Directory.... ')
